@@ -1,0 +1,20 @@
+.modal-container {
+  border: 1px solid #2beade;
+  border-radius: 22px;
+  padding: 20px 40px 30px 40px;
+}
+.cross {
+  color: #2beade;
+  cursor: pointer;
+  font-size: 20px;
+}
+.about-para {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+/* Don't touch. It's working */
+.modal-content {
+  background-color: #343a40 !important;
+  border-radius: 22px;
+}

@@ -1,0 +1,68 @@
+.thumbs {
+  cursor: pointer;
+  height: 100px !important;
+  width: 200px !important;
+}
+.thumbs p {
+  background: rgb(43, 234, 222);
+  padding: 5px 15px;
+  border-radius: 0 0 5px 5px;
+  text-align: center;
+}
+.thumbs .videos {
+  transition: 0.5;
+  opacity: 0.4;
+  min-height: 100px;
+  min-width: 100%;
+  height: auto !important;
+  width: 100%;
+}
+
+.thumbs .videos:hover {
+  opacity: 1;
+}
+
+.thumbnails {
+  height: 9rem;
+  width: 10rem;
+}
+.activeclass .videos {
+  opacity: 1 !important;
+}
+
+.activeclass .videos {
+  font-weight: bold !important;
+}
+.activeclass p {
+  font-weight: bold !important;
+  background-color: rgb(8, 110, 104);
+  color: white;
+}
+.hidden:parent {
+  overflow-x: hidden !important;
+}
+.thumbnail {
+}
+/* width */
+
+/* width */
+.thumbnail::-webkit-scrollbar {
+  height: 5px;
+}
+
+/* Track */
+.thumbnail::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 0px;
+}
+
+/* Handle */
+.thumbnail::-webkit-scrollbar-thumb {
+  background: #2beade;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.thumbnail::-webkit-scrollbar-thumb:hover {
+  background: #32c9bf;
+}

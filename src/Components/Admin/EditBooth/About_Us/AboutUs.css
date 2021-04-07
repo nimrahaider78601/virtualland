@@ -1,0 +1,28 @@
+.tox-notifications-container {
+  display: none;
+}
+
+@media only screen and (min-width: 531px) and (max-width: 1031px) {
+  .Edit_width {
+    width: 70%;
+  }
+  .editor_btn {
+    width: 70%;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 531px) {
+  .Edit_width {
+    width: 40%;
+  }
+  .editor_btn {
+    width: 40%;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 300px) {
+  .Edit_width {
+    width: 30%;
+  }
+  .editor_btn {
+    width: 30%;
+  }
+}

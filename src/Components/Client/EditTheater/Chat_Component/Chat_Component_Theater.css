@@ -1,0 +1,240 @@
+.chat_Component_Theater {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  cursor: pointer !important;
+  z-index: 1000 !important;
+}
+.chat_Component_Theater .fa-comment {
+  color: #2beade;
+  font-size: 30px;
+  border-radius: 100%;
+}
+.chat_Component_Theater .card {
+  border: none !important;
+}
+.chat_Component_Theater .card-header {
+  background-color: #2beade;
+}
+.chat_Component_Theater .card-header .personal {
+  border-radius: 50px;
+  font-size: 12px;
+  color: #000;
+}
+.chat_Component_Theater .card-header .Invitados {
+  border-radius: 50px;
+  font-size: 12px;
+  background-color: #000;
+  color: white;
+}
+.chat_Component_Theater .card-header #dropdown-basic-button {
+  border-radius: 50px;
+  font-size: 12px !important;
+  font-weight: 100;
+  text-transform: none;
+  color: #000 !important;
+  background-color: rgb(255, 255, 255) !important;
+  border: none !important;
+  padding: 0;
+  padding-right: 2rem !important;
+  padding-left: 2rem !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.chat_Component_Theater .card-header #dropdown-basic-button:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none;
+}
+.chat_Component_Theater .card-header .dropdown-menu {
+  background-color: transparent;
+  border: none;
+}
+.chat_Component_Theater .card-header .dropdown-item {
+  border-radius: 50px;
+  background-color: #fff;
+  box-shadow: #000;
+  width: 110px;
+  color: black;
+}
+.chat_Component_Theater .card-header .video_chat {
+  position: absolute;
+  right: 4rem;
+  cursor: pointer;
+  font-size: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #2beade;
+}
+.chat_Component_Theater .card-header .video_chat i {
+}
+.chat_Component_Theater .card-header .video_chat:hover {
+  background-color: rgb(224, 224, 224);
+  border-radius: 100%;
+  color: #3bb9b1;
+}
+.chat_Component_Theater .card-header .close_chat {
+  position: absolute;
+  right: 1rem;
+  cursor: pointer;
+  font-size: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #000000;
+}
+.chat_Component_Theater .card-body {
+  height: 48vh !important;
+}
+.chat_Component_Theater .card-body .text-left {
+  color: black;
+}
+.chat_Component_Theater .card-body .user_list {
+  height: 42vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.chat_Component_Theater .card-body .name_col span,
+.chat_Component_Theater .card-body .company_col span {
+  background-color: #2beade;
+  border-radius: 50px;
+  font-size: 12px;
+  color: black;
+}
+.chat_Component_Theater .card-body .logged-in {
+  position: absolute;
+  top: -12px;
+  right: 29px;
+  font-size: 23px;
+}
+.chat_Component_Theater .card-body .user_name {
+  letter-spacing: 0;
+}
+.chat_Component_Theater .card-body .user_name:hover {
+  font-weight: bold;
+}
+.chat_Component_Theater .card-body .empty {
+  background-color: #2beade;
+  color: #2beade;
+  border-radius: 5px 5px 0px 5px;
+}
+.chat_Component_Theater .next_opened {
+  position: absolute;
+  left: -27rem;
+  bottom: 3rem;
+}
+.chat_Component_Theater .next_opened .card-header {
+  background-color: #fff;
+  border-bottom: 1px solid #2beade !important;
+}
+.chat_Component_Theater .next_opened .card-header .logged-in {
+  position: absolute;
+  top: -12px;
+  right: 19px;
+  font-size: 23px;
+  color: rgb(19, 172, 19) !important;
+}
+.chat_Component_Theater .next_opened .user_name {
+  color: black;
+}
+.chat_Component_Theater .form-inline .form-group {
+  width: 100% !important;
+}
+.chat_Component_Theater .next_opened .card-body {
+  padding: 0 !important;
+}
+.chat_Component_Theater .next_opened .chat_form {
+  width: 97%;
+  position: absolute;
+  bottom: 0rem;
+}
+
+.chat_Component_Theater .next_opened .chat_form input {
+  background-color: #e0e0e0;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+}
+.chat_Component_Theater .next_opened .chat_form input[type="button"] {
+  width: 23%;
+}
+.chat_Component_Theater .next_opened .chat_form input[type="text"] {
+  width: 70%;
+}
+
+.chat_Component_Theater .next_opened .card-body .firstpara {
+  background-color: #2beade;
+  border-radius: 10px;
+  color: black;
+}
+.chat_Component_Theater .next_opened .card-body .userchat {
+  background-color: #f2f2f2;
+  border-radius: 15px 50px 30px 5px;
+  width: 250px;
+}
+.chat_Component_Theater .next_opened .card-body .userchat .chat_para {
+  line-height: 25px;
+  color: black;
+  margin-bottom: 0 !important;
+}
+.chat_Component_Theater .next_opened .card-body .yourchat {
+  background-color: #f2f2f2;
+  border-radius: 50px 15px 5px 30px;
+  width: 250px;
+}
+.chat_Component_Theater .next_opened .card-body .yourchat .chat_para {
+  line-height: 25px;
+  margin-bottom: 0 !important;
+  color: black;
+}
+/* width */
+.chat_Component_Theater .next_opened .card-body::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.chat_Component_Theater .next_opened .card-body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 0px;
+}
+
+/* Handle */
+.chat_Component_Theater .next_opened .card-body::-webkit-scrollbar-thumb {
+  background: #2c2c2c;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.chat_Component_Theater .next_opened .card-body::-webkit-scrollbar-thumb:hover {
+  background: #000000;
+}
+.video_chat_modal_Theater .video_chat_header {
+  height: 50px;
+}
+.video_chat_modal_Theater .video_chat_header span {
+  background-color: #000 !important;
+  padding-right: 5px;
+  padding-left: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  right: 2rem;
+  color: white !important;
+}
+.video_chat_modal_Theater .video_chat_body .drop_call_div {
+  position: absolute;
+  bottom: 2rem;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+}
+.video_chat_modal_Theater .video_chat_body .drop_call {
+  font-size: 25px;
+  background-color: rgb(212, 11, 11);
+  color: white;
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.4em 0.5em;
+  transform: rotate(135deg);
+}

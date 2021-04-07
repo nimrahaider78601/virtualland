@@ -1,0 +1,30 @@
+.login {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.555);
+  color: #2beade !important;
+}
+
+.login .card {
+  border-color: #2beade !important;
+}
+.login h5 {
+  color: #2beade !important;
+}
+.login .input-group-text {
+  color: #2beade !important;
+}
+.login .btn {
+  background-color: #2beade;
+  color: black;
+  transition: 0.5s;
+}
+.login .btn:hover {
+  color: black;
+}
+.login .links .font-weight-bold {
+  color: #2beade;
+}

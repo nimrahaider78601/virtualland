@@ -1,0 +1,115 @@
+.Networking {
+  width: 100% !important;
+  min-height: 100vh;
+  max-height: max-content;
+  -webkit-background-size: contain;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  overflow-x: hidden;
+}
+.Networking .quote_div {
+  height: 60vh;
+  -webkit-background-size: contain;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  overflow-x: hidden;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.664);
+}
+.Networking .first_para {
+  background-color: #000000;
+  border-radius: 10px;
+  color: #2beade;
+  width: 70px;
+  font-size: 10px;
+}
+.Networking .second_para {
+  background-color: #2beade;
+  border-radius: 10px;
+  color: black;
+  font-size: 10px;
+  width: 70px;
+}
+.Networking .networking_sidebar .userchat {
+  background-color: #f2f2f2;
+  border-radius: 15px 50px 30px 5px;
+  line-height: 10px;
+  width: 250px;
+}
+.Networking .networking_sidebar .yourchat {
+  background-color: #f2f2f2;
+  border-radius: 50px 15px 5px 30px;
+  line-height: 10px;
+  width: 250px;
+}
+.Networking .networking_sidebar .text_div .firstpara {
+  background-color: #2beade;
+  border-radius: 10px;
+  color: black;
+}
+.Networking .networking_sidebar .text_div .userChat {
+  background-color: #f2f2f2;
+  border-radius: 15px 50px 30px 5px;
+  width: 250px;
+}
+.Networking .networking_sidebar .text_div .userChat .chat_para {
+  line-height: 25px;
+  color: black;
+  margin-bottom: 0 !important;
+}
+.Networking .networking_sidebar .text_div .yourChats {
+  background-color: #f2f2f2;
+  border-radius: 50px 15px 5px 30px;
+  width: 2.5rem;
+}
+.Networking .networking_sidebar .text_div .yourChats .chat_para {
+  line-height: 25px;
+  margin-bottom: 0 !important;
+  color: black;
+}
+.Networking .form .input-group input {
+  height: 2.5rem !important;
+  outline: none;
+  box-shadow: none;
+  background-color: #f2f2f2;
+}
+.Networking .form .input-group button {
+  height: 2.5rem !important;
+  outline: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.Networking .form button {
+  color: black !important;
+  background-color: #2beade !important;
+}
+.Networking .name {
+  font-size: 17px;
+}
+.Networking .info {
+  font-size: 10px;
+}
+/* width */
+.networking_sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.networking_sidebar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #d4d4d4;
+
+  border-radius: 10px;
+}
+
+/* Handle */
+.networking_sidebar::-webkit-scrollbar-thumb {
+  background: #2beade;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.networking_sidebar::-webkit-scrollbar-thumb:hover {
+  background: #22b9af;
+}

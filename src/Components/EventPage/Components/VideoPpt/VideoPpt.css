@@ -1,0 +1,166 @@
+.video {
+  height: 78vh;
+}
+.videoppt .video {
+  /* height: 100%; */
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+.videoppt .ppt {
+  margin-left: 1rem;
+}
+.videoppt .video .firstpara {
+  background-color: #2beade;
+  border-radius: 10px;
+  color: black;
+}
+.videoppt .video .userchat {
+  background-color: #f2f2f2;
+  border-radius: 15px 50px 30px 5px;
+  line-height: 10px;
+  width: 250px;
+}
+.videoppt .video .yourchat {
+  background-color: #f2f2f2;
+  border-radius: 50px 15px 5px 30px;
+  line-height: 10px;
+  width: 250px;
+}
+/* width */
+.sidebardesign::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.sidebardesign::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 0px;
+}
+
+/* Handle */
+.sidebardesign::-webkit-scrollbar-thumb {
+  background: #2beade;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.sidebardesign::-webkit-scrollbar-thumb:hover {
+  background: #2beade;
+}
+.videoppt .video .form .input-group input {
+  height: 2.5rem !important;
+  outline: none;
+  box-shadow: none;
+  background-color: #f2f2f2;
+}
+.videoppt .video .form .input-group button {
+  height: 2.5rem !important;
+  outline: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.videoppt .video .form button {
+  color: black !important;
+  background-color: #2beade !important;
+}
+.main .react-pdf__Document {
+  height: 100% !important;
+}
+.main .react-pdf__Document .react-pdf__Page {
+  height: 100% !important;
+}
+.main .react-pdf__Document .react-pdf__Page .react-pdf__Page__canvas {
+  width: 70% !important;
+  height: 100% !important;
+  margin-left: 14%;
+}
+.main .react-pdf__Document .react-pdf__Page .react-pdf__Page__textContent {
+  width: 100% !important;
+}
+.main_button {
+  background-color: #f2f2f2;
+  height: 17% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.main_button .buttonc button {
+  outline: none;
+  font-size: 10px;
+  box-shadow: none;
+  padding: 0;
+  color: black !important;
+  background-color: #2beade !important;
+  width: 5rem;
+}
+.main_button .buttonc .last_btn {
+  background-color: transparent !important;
+  border: 1px solid #7c7c7c;
+  font-size: 16px;
+  width: 2.6rem;
+}
+.main .actives {
+  height: 100vh !important;
+  overflow-y: hidden;
+  width: 100% !important;
+  overflow-x: hidden;
+}
+.Modal_main .modal_body {
+  height: 70vh;
+}
+.Modal_main .react-pdf__Document .react-pdf__Page {
+  width: 100%;
+}
+
+.Modal_main .react-pdf__Document .react-pdf__Page .react-pdf__Page__canvas {
+  margin-left: 17% !important;
+  height: 70vh !important;
+  width: 70% !important;
+}
+
+.Modal_main .modal-content {
+  background-color: #000;
+}
+.Modal_button .buttonc button {
+  height: 2rem !important;
+  outline: none;
+  font-size: 10px;
+  box-shadow: none;
+  padding: 0;
+  color: black !important;
+  background-color: #2beade !important;
+  width: 5rem;
+}
+.Modal_button .buttonc .last_btn {
+  background-color: transparent !important;
+  border: 1px solid #7c7c7c;
+  font-size: 16px;
+  width: 2.6rem;
+}
+.Modal_button .pagec {
+  color: black !important;
+}
+.Modal_main .modal_body,
+.Modal_button {
+  background-color: rgb(255, 255, 255) !important;
+}
+.Modal_main .header {
+  background-color: #2beade !important;
+}
+.video .video_heading h3 {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .videoppt .video .player {
+    padding: 0 !important;
+  }
+  .videoppt .ppt {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 510px) {
+  .Modal_main .react-pdf__Document .react-pdf__Page .react-pdf__Page__canvas {
+    height: 40vh !important;
+  }
+}

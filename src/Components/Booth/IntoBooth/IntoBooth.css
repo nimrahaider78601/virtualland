@@ -1,0 +1,180 @@
+.into-booth-container {
+  width: 100% !important;
+  height: max-content;
+  min-height: 100vh;
+  position: relative;
+  -webkit-background-size: contain;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+.modal-btn-container {
+  position: absolute;
+  width: 100%;
+  top: 18%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+}
+.modal-btn {
+  background-color: #2beade !important;
+  color: black !important;
+  border-radius: 45px !important;
+  font-weight: bold;
+  letter-spacing: 1px;
+  /* min-width: 70px; */
+  width: max-content;
+  min-width: max-content;
+  max-height: fit-content;
+  /* font-size: 0.7vw !important; */
+}
+.border-img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 20% !important;
+  background: url(../../../images/border.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+/* .border-img img {
+  width: 70%;
+  margin: auto;
+} */
+@media screen and (max-width: 480px) {
+  .border-img img {
+    width: 95%;
+  }
+  .modal-btn {
+    width: 50px !important;
+    margin: 20px !important;
+  }
+  .border-img {
+    background: url(../../../images/border2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .modal-btn {
+    font-size: 7px !important;
+    padding: 3px !important;
+  }
+}
+@media screen and (max-width: 415px) {
+  .modal-btn {
+    height: 2rem !important;
+    width: 5rem !important;
+    font-size: 10px !important;
+  }
+}
+@media screen and (max-width: 680px) and (min-width: 350px) and (min-height: 400px) {
+  .border-img {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 17% !important;
+    background: url(../../../images/border2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 680px) and (min-width: 350px) and (max-height: 400px) and (min-height: 300px) {
+  .border-img {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 19% !important;
+    background: url(../../../images/border2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 680px) and (min-width: 350px) and (max-height: 1000px) and (min-height: 400px) {
+  .border-img {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 20% !important;
+    background: url(../../../images/border2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 350px) {
+  .border-img {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 25% !important;
+    background: url(../../../images/border2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1920px) {
+  .modal-btn {
+    height: 3rem !important;
+    width: 10rem !important;
+    font-size: 15px !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .modal-btn {
+    width: 6rem !important;
+    height: 2.5rem !important;
+    font-size: 12px !important;
+  }
+}
+@media screen and (max-width: 395px) {
+  .modal-btn {
+    width: 5.5rem !important;
+    height: 2.5rem !important;
+    font-size: 10px !important;
+  }
+}
+@media screen and (max-width: 365px) {
+  .modal-btn {
+    width: 4.5rem !important;
+    height: 2.5rem !important;
+    font-size: 10px !important;
+  }
+}
+@media screen and (max-width: 1366px) and (max-height: 720px) {
+  .modal-btn {
+    width: 6rem !important;
+    height: 2.5rem !important;
+    font-size: 10px !important;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 699px) {
+  .modal-btn {
+    width: 5rem !important;
+    height: 2rem !important;
+  }
+}
+@media screen and (max-width: 824px) and (max-height: 412px) {
+  .modal-btn-container {
+    top: 20%;
+  }
+  .modal-btn {
+    width: 4rem !important;
+    height: 2rem !important;
+    font-size: 8px !important;
+  }
+}

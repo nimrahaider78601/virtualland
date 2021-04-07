@@ -1,0 +1,28 @@
+.EditTheaterScroll {
+  height: 187px;
+  overflow-y: auto;
+}
+
+.EditTheaterScroll::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+
+.EditTheaterScroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 0px;
+}
+
+/* Handle */
+
+.EditTheaterScroll::-webkit-scrollbar-thumb {
+  background: #535353;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+
+.EditTheaterScroll::-webkit-scrollbar-thumb:hover {
+  background: #000000;
+}
